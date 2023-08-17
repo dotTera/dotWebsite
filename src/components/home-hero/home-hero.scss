@@ -1,0 +1,65 @@
+.home-hero{
+  display:flex;
+  margin: 2% 5% 5%;
+  gap : 5%;
+
+
+  .text-side{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap : 15px;
+
+    .big-text{
+      color:#4e9f3d;
+      font-size: 48px;
+      font-weight: 700;
+
+    }
+
+    .sm-text{
+      color:#d8e9a8;
+      font-size: 20px;
+
+    }
+
+    .explore{
+      background-color:#4e9f3d;
+      padding:15px;
+      width: fit-content;
+      font-weight: bold;
+      cursor:pointer;
+    }
+
+    .explore:hover{
+      background:transparent;
+      border:1px solid green;
+    }
+
+  }
+
+  .img-side{
+    position: relative;
+    flex: 1;
+
+    .img , .img2{
+      width: 400px;
+      height :400px;
+      object-fit: cover;
+      border-radius: 10px;
+
+    }
+
+    .img2{
+          position: absolute;
+           z-index: -1;
+           left:6%;
+      top:5%;
+
+    }
+
+  }
+
+
+}
+

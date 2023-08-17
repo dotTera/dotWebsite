@@ -1,0 +1,39 @@
+.d-numbers{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  justify-content:center;
+
+  .dot-header{
+    text-align:center;
+    font-weight:bold;
+    font-size:35px;
+
+  }
+
+  .numbers{
+    display:flex;
+    justify-content: space-around;
+    font-size:20px;
+
+    .n-group{
+      display:flex;
+      flex-direction:column;
+
+      .numb{
+        font-size:28px;
+        text-align:center;
+        font-weight:600;
+
+
+      }
+
+      .numb-text{
+
+      }
+    }
+  }
+
+
+
+}

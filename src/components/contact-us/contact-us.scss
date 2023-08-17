@@ -1,0 +1,67 @@
+.contact-us{
+  margin-bottom: 4%;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+
+
+  .contact-header{
+    text-align: center;
+    font-size:32px;
+    font-weight:bold;
+
+  }
+
+  form{
+
+    .form-group{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      gap:10px;
+      margin-bottom: 1%;
+
+      label{
+        font-size: 20px;
+
+      }
+
+      input{
+        height:35px;
+        width:400px;
+
+      }
+
+      textarea{
+        height:70px;
+        width:400px;
+
+      }
+
+
+
+    }
+
+    button{
+      text-align: center;
+      width:400px;
+      background:transparent;
+      border:2px solid green;
+      cursor: pointer;
+      height: 45px;
+      margin-top: 3%;
+      color:white;
+      font-size: 20px;
+      margin-left: 1%;
+    }
+    button:hover{
+      background:greenyellow;
+
+    }
+
+  }
+
+
+}
