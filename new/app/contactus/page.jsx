@@ -11,6 +11,8 @@ export default  function ContactUs(){
             <div className="text-main font-bold text-center text-2xl">
                 Contact Us
             </div>
+
+
             <div className="flex flex-col md:flex-row items-center justify-center mx-4">
                 <ContactButton
                     icon={ <BsWhatsapp/>  }
@@ -34,8 +36,9 @@ export default  function ContactUs(){
                 />
 
             </div>
-            <div className="flex items-centern justify-center my-2">
-                <form className="flex flex-col bg-green-100 gap-2 p-3 w-1/2">
+            <div className="flex md:items-center  md:justify-center my-4 flex-col">
+                <div className="font-bold text-main text-xl text-center">Send Us A Message</div>
+                <form className="flex flex-col bg-green-100 gap-2 p-3 md:w-1/2 w-full rounded-md">
                     <div className="flex flex-col">
                         <label className="">Full Name</label>
                         <input type="text" className="input-field"/>
