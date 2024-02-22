@@ -19,3 +19,7 @@
 .body-text{
    @apply  text-slate-500
 }
+
+.input-field{
+    @apply p-2 border border-gray-400 rounded-lg  outline-none;
+}

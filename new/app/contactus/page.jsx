@@ -11,7 +11,7 @@ export default  function ContactUs(){
             <div className="text-main font-bold text-center text-2xl">
                 Contact Us
             </div>
-            <div className="flex flex-col md:flex-row items-center justify-center">
+            <div className="flex flex-col md:flex-row items-center justify-center mx-4">
                 <ContactButton
                     icon={ <BsWhatsapp/>  }
                     name="WhatsApp"
@@ -34,25 +34,25 @@ export default  function ContactUs(){
                 />
 
             </div>
-            <div className="flex items-centern justify-center">
-                <form className="flex flex-col bg-green-100">
+            <div className="flex items-centern justify-center my-2">
+                <form className="flex flex-col bg-green-100 gap-2 p-3 w-1/2">
                     <div className="flex flex-col">
                         <label className="">Full Name</label>
-                        <input type="text" className="p-2 border border-gray-400"/>
+                        <input type="text" className="input-field"/>
                     </div>
 
                     <div className="flex flex-col">
                         <label className="">Email</label>
-                        <input type="text" className=""/>
+                        <input type="text" className="input-field"/>
                     </div>
 
                     <div className="flex flex-col">
                         <label className="">Message</label>
-                        <input type="text" className=""/>
+                        <textarea className="input-field"/>
                     </div>
 
-                    <div className="flex items-center justify-center">
-                        <button type="button" className="">Send Message</button>
+                    <div className="flex items-center justify-center my-2">
+                        <button type="button" className="p-3 text-center bg-main text-white">Send Message</button>
                     </div>
 
                 </form>
