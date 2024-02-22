@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.head{
+    @apply text-main font-bold text-xl;
+}
+
+.display{
+    @apply flex  md:flex-row
+}
+
+.product-width{
+    @apply w-full md:w-1/2
+}
+
+.body-text{
+   @apply  text-slate-500
+}
